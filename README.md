@@ -11,3 +11,15 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.ts
 ```
+
+### Run to compile solidity contract
+
+```shell
+npx hardhat compile
+```
+
+### Run to deploy on zkTestnet
+
+```shell
+npx hardhat deploy-zksync --network zkTestnet
+```
